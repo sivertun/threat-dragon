@@ -2155,7 +2155,14 @@
               "storesInventory": false,
               "threats": []
             },
-            "zIndex": 17
+            "zIndex": 17,
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -3162,21 +3169,40 @@
                   "new": false,
                   "number": 8,
                   "score": ""
+                },
+                {
+                  "id": "1e9f550e-0c08-416d-8227-d92e2f3ffcf6",
+                  "title": "Lack of logging for AI actions",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "d9c6ad40-7de9-4d6b-9888-e0a9d71a1734",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 10,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 1,
-                "repudiation": 0
+                "repudiation": 1
               }
             },
-            "children": [],
-            "tools": {
-              "items": [
-                "boundary",
-                "button-remove"
-              ],
-              "name": null
-            }
+            "children": []
           },
           {
             "position": {
@@ -3533,6 +3559,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 8
+    "threatTop": 13
   }
 }
