@@ -1326,7 +1326,7 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
+              "name": "Request ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -1342,7 +1342,7 @@
               ]
             },
             "labels": [
-              "Data Flow"
+              "Request"
             ],
             "id": "a88bdf5a-e583-4a39-9461-60569be2c485",
             "source": {
@@ -1353,7 +1353,12 @@
               "cell": "b736c10c-83c2-48eb-94b1-304903f17a1f",
               "port": "abb476a6-6586-40e3-9597-5aeab289b31a"
             },
-            "vertices": []
+            "vertices": [
+              {
+                "x": -1760,
+                "y": 230
+              }
+            ]
           },
           {
             "position": {
@@ -3044,8 +3049,8 @@
                 "text": "AI facial recognition"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3142,11 +3147,36 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "9a894d45-fb11-403e-9e4c-6d1754647926",
+                  "title": "AI detection incorrectly  flags guest as unwanted intruders",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             },
-            "children": []
+            "children": [],
+            "tools": {
+              "items": [
+                "boundary",
+                "button-remove"
+              ],
+              "name": null
+            }
           },
           {
             "position": {
@@ -3503,6 +3533,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 1
+    "threatTop": 8
   }
 }
