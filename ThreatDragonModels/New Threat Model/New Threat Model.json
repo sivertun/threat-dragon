@@ -2312,7 +2312,7 @@
               "threats": [
                 {
                   "id": "d5359a9c-83bd-4270-8113-c175a9f78aad",
-                  "title": "Overloading Media Database",
+                  "title": "Overloading media database",
                   "status": "Open",
                   "severity": "Critical",
                   "type": "Denial of service",
@@ -2329,7 +2329,7 @@
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
-                "denialOfService": 1,
+                "denialOfService": 2,
                 "elevationOfPrivilege": 0
               }
             }
@@ -2458,7 +2458,7 @@
                   "status": "Open",
                   "severity": "High",
                   "type": "Denial of service",
-                  "description": "Provide a description for this threat",
+                  "description": "If the external authentication servier is being attacked by a DOS-attack, it won't be able to process requests from legit users, and the entire system can't process guest or staff requests.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
@@ -2471,7 +2471,7 @@
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
-                "denialOfService": 4,
+                "denialOfService": 5,
                 "elevationOfPrivilege": 0
               }
             }
@@ -2842,7 +2842,7 @@
             },
             "attrs": {
               "text": {
-                "text": "Internal\nHotel\nServer"
+                "text": "Internal\nhotel\nserver"
               },
               "body": {
                 "stroke": "red",
@@ -2938,7 +2938,7 @@
             "id": "e26762f1-b36e-405d-a3a5-79a25940d078",
             "data": {
               "type": "tm.Process",
-              "name": "Internal\nHotel\nServer ",
+              "name": "Internal\nhotel\nserver ",
               "description": "",
               "outOfScope": false,
               "isTrustBoundary": false,
@@ -2961,13 +2961,26 @@
                   "new": false,
                   "number": 18,
                   "score": ""
+                },
+                {
+                  "id": "aafdcbd8-6627-4206-b78d-59eabc4a285d",
+                  "title": "Tampered data from cameras",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Tampering",
+                  "description": "Someone tampers with the images coming from the cameras to hide intruders.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
                 "spoofing": 0,
-                "tampering": 0,
+                "tampering": 1,
                 "repudiation": 0,
-                "informationDisclosure": 1,
+                "informationDisclosure": 2,
                 "denialOfService": 0,
                 "elevationOfPrivilege": 0
               }
@@ -3577,6 +3590,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 19
+    "threatTop": 21
   }
 }
