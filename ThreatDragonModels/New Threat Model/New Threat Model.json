@@ -474,110 +474,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "87f768cc-b438-49a5-99c1-607ebc5ec0e2",
-            "source": {
-              "cell": "a77b04f9-f569-4383-bd9d-002aa73d9ac5",
-              "port": "53e1e506-5384-499e-9de1-ab8e4f732aeb"
-            },
-            "target": {
-              "cell": "e26762f1-b36e-405d-a3a5-79a25940d078",
-              "port": "5e22067e-97f8-46d7-9b21-685fa69fd358"
-            },
-            "vertices": [
-              {
-                "x": -1850,
-                "y": 540
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "f9177386-2a81-409f-8826-207ee2d5f6ca",
-            "source": {
-              "cell": "e26762f1-b36e-405d-a3a5-79a25940d078",
-              "port": "5e22067e-97f8-46d7-9b21-685fa69fd358"
-            },
-            "target": {
-              "cell": "a77b04f9-f569-4383-bd9d-002aa73d9ac5",
-              "port": "53e1e506-5384-499e-9de1-ab8e4f732aeb"
-            },
-            "vertices": [
-              {
-                "x": -1780,
-                "y": 630
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "Response ",
               "description": "",
               "outOfScope": false,
@@ -1632,6 +1528,110 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request"
+            ],
+            "id": "f9177386-2a81-409f-8826-207ee2d5f6ca",
+            "source": {
+              "cell": "e26762f1-b36e-405d-a3a5-79a25940d078",
+              "port": "5e22067e-97f8-46d7-9b21-685fa69fd358"
+            },
+            "target": {
+              "cell": "a77b04f9-f569-4383-bd9d-002aa73d9ac5",
+              "port": "53e1e506-5384-499e-9de1-ab8e4f732aeb"
+            },
+            "vertices": [
+              {
+                "x": -1780,
+                "y": 630
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Response"
+            ],
+            "id": "87f768cc-b438-49a5-99c1-607ebc5ec0e2",
+            "source": {
+              "cell": "a77b04f9-f569-4383-bd9d-002aa73d9ac5",
+              "port": "53e1e506-5384-499e-9de1-ab8e4f732aeb"
+            },
+            "target": {
+              "cell": "e26762f1-b36e-405d-a3a5-79a25940d078",
+              "port": "5e22067e-97f8-46d7-9b21-685fa69fd358"
+            },
+            "vertices": [
+              {
+                "x": -1810,
+                "y": 545
+              }
+            ]
+          },
+          {
             "position": {
               "x": 320,
               "y": 17
@@ -2435,8 +2435,8 @@
                 "text": "Media\ndatabase"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2533,12 +2533,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "d5359a9c-83bd-4270-8113-c175a9f78aad",
+                  "title": "Overloading Media Database",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Denial of service",
+                  "description": "Attackers can connect to the camera upload link, and send too many requests to the media server so that it crashes.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -2678,7 +2700,7 @@
                 "tampering": 0,
                 "repudiation": 0,
                 "informationDisclosure": 0,
-                "denialOfService": 3,
+                "denialOfService": 4,
                 "elevationOfPrivilege": 0
               }
             }
@@ -3098,8 +3120,8 @@
                 "text": "Internal\nHotel\nServer"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -3196,12 +3218,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "e23bbf53-012e-4c7e-8184-cca1756322cd",
+                  "title": "Guest Data Compromised",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "Unauthorized staff get access to de-anonymized guest data.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -3437,19 +3481,6 @@
               "providesAuthentication": false,
               "threats": [
                 {
-                  "id": "9a894d45-fb11-403e-9e4c-6d1754647926",
-                  "title": "AI detection incorrectly  flags guest as unwanted intruders",
-                  "status": "Open",
-                  "severity": "High",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 8,
-                  "score": ""
-                },
-                {
                   "id": "1e9f550e-0c08-416d-8227-d92e2f3ffcf6",
                   "title": "Lack of logging for AI actions",
                   "status": "Open",
@@ -3461,23 +3492,10 @@
                   "new": false,
                   "number": 9,
                   "score": ""
-                },
-                {
-                  "id": "d9c6ad40-7de9-4d6b-9888-e0a9d71a1734",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 10,
-                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 1,
+                "spoofing": 0,
                 "repudiation": 1
               }
             },
@@ -3834,6 +3852,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 16
+    "threatTop": 19
   }
 }
