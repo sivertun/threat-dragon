@@ -108,12 +108,12 @@
           },
           {
             "position": {
-              "x": -1217.75,
-              "y": -264.9999999999999
+              "x": -1198.75,
+              "y": -259.9999999999999
             },
             "size": {
-              "width": 190,
-              "height": 130
+              "width": 170,
+              "height": 120
             },
             "visible": true,
             "shape": "trust-boundary-box",
@@ -195,11 +195,11 @@
           },
           {
             "position": {
-              "x": -1525,
+              "x": -1505,
               "y": 785
             },
             "size": {
-              "width": 190,
+              "width": 170,
               "height": 90
             },
             "visible": true,
@@ -465,58 +465,6 @@
               {
                 "x": -1420,
                 "y": 660
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Response ",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Response"
-            ],
-            "id": "078358f4-55e6-440a-831a-0fafd8d9c1bb",
-            "source": {
-              "cell": "eeab491c-0a79-479e-9fed-27bf865f3b20",
-              "port": "16652023-753b-4d2e-9d14-3b3869224b90"
-            },
-            "target": {
-              "cell": "e26762f1-b36e-405d-a3a5-79a25940d078",
-              "port": "53e1e506-5384-499e-9de1-ab8e4f732aeb"
-            },
-            "vertices": [
-              {
-                "x": -1300,
-                "y": 780
               }
             ]
           },
@@ -1192,58 +1140,6 @@
               "isPublicNetwork": false,
               "protocol": "",
               "threats": [],
-              "trustBoundaryIds": []
-            },
-            "labels": [
-              "Request"
-            ],
-            "id": "c05e0011-967d-4577-b88e-7811bff94569",
-            "source": {
-              "cell": "e26762f1-b36e-405d-a3a5-79a25940d078",
-              "port": "53e1e506-5384-499e-9de1-ab8e4f732aeb"
-            },
-            "target": {
-              "cell": "eeab491c-0a79-479e-9fed-27bf865f3b20",
-              "port": "16652023-753b-4d2e-9d14-3b3869224b90"
-            },
-            "vertices": [
-              {
-                "x": -1200,
-                "y": 740
-              }
-            ]
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
-              "name": "Request ",
-              "description": "",
-              "outOfScope": false,
-              "isTrustBoundary": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": [],
               "trustBoundaryIds": [
                 "6eb7593c-54e1-4ef3-9e16-f12ed57dac85"
               ]
@@ -1534,6 +1430,110 @@
             ]
           },
           {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Response ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Response"
+            ],
+            "id": "5376d026-873e-4944-9dfe-ec5b65f70df1",
+            "source": {
+              "cell": "73b51d8f-b78b-4e79-82e6-350f369ca140",
+              "port": "05c8c537-9802-4ca7-bf3f-ecbd84e5d6a7"
+            },
+            "target": {
+              "cell": "e26762f1-b36e-405d-a3a5-79a25940d078",
+              "port": "53e1e506-5384-499e-9de1-ab8e4f732aeb"
+            },
+            "vertices": [
+              {
+                "x": -1290,
+                "y": 680
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Request ",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": [],
+              "trustBoundaryIds": []
+            },
+            "labels": [
+              "Request"
+            ],
+            "id": "798d0ab2-b4d2-4d50-bcc9-95db64a814c3",
+            "source": {
+              "cell": "e26762f1-b36e-405d-a3a5-79a25940d078",
+              "port": "53e1e506-5384-499e-9de1-ab8e4f732aeb"
+            },
+            "target": {
+              "cell": "73b51d8f-b78b-4e79-82e6-350f369ca140",
+              "port": "05c8c537-9802-4ca7-bf3f-ecbd84e5d6a7"
+            },
+            "vertices": [
+              {
+                "x": -1340,
+                "y": 730
+              }
+            ]
+          },
+          {
             "position": {
               "x": -2110,
               "y": -45
@@ -1671,8 +1671,8 @@
                 "text": "Guest database "
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -1769,12 +1769,34 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "71646acf-08fe-4a27-9b9f-9bd5cb2f8e70",
+                  "title": "Data leakage of user details",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "The user details get leaked to unauthorized users or to the public.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 32,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
             }
           },
           {
@@ -2596,18 +2618,39 @@
               "threats": [
                 {
                   "id": "eb9e1871-30a0-47b6-9d84-7ef9326aec81",
-                  "title": "New STRIDE threat",
+                  "title": "Intruders gets server privileges",
                   "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
+                  "severity": "Critical",
+                  "type": "Elevation of privilege",
+                  "description": "Intruder gets access to booking server, and adds themselves to the authorized guests list without being approved.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
-                  "new": true,
+                  "new": false,
                   "number": 24,
                   "score": ""
+                },
+                {
+                  "id": "93ba09ea-3422-402d-8963-d597955a4f92",
+                  "title": "Booking server is down due to being overloaded",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Denial of service",
+                  "description": "Attackers send a plethora of requests to the booking server in order to crash it.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 30,
+                  "score": ""
                 }
-              ]
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 0,
+                "denialOfService": 1,
+                "elevationOfPrivilege": 3
+              }
             },
             "children": []
           },
@@ -2625,8 +2668,8 @@
                 "text": "Guest"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2723,9 +2766,27 @@
               "isTrustBoundary": false,
               "outOfScope": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "providesAuthentication": false,
-              "threats": []
+              "threats": [
+                {
+                  "id": "03e44aca-b3d9-4b72-8795-3f9c880f0193",
+                  "title": "Booking as another person",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Spoofing",
+                  "description": "A user books a trip as a person that they do not have permission from.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 25,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "repudiation": 0
+              }
             }
           },
           {
@@ -2988,19 +3049,6 @@
                   "new": false,
                   "number": 21,
                   "score": ""
-                },
-                {
-                  "id": "5dbc2659-9769-4ed0-accf-feab93dc202d",
-                  "title": "New STRIDE threat",
-                  "status": "Open",
-                  "severity": "TBD",
-                  "type": "Spoofing",
-                  "description": "Provide a description for this threat",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": true,
-                  "number": 22,
-                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -3129,155 +3177,6 @@
               "providesAuthentication": false,
               "threats": []
             }
-          },
-          {
-            "position": {
-              "x": -1113.75,
-              "y": 910
-            },
-            "size": {
-              "width": 180,
-              "height": 60
-            },
-            "attrs": {
-              "text": {
-                "text": "AI facial recognition"
-              },
-              "body": {
-                "stroke": "red",
-                "strokeWidth": 2.5,
-                "strokeDasharray": null
-              }
-            },
-            "visible": true,
-            "shape": "actor",
-            "zIndex": 27,
-            "ports": {
-              "groups": {
-                "top": {
-                  "position": "top",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "right": {
-                  "position": "right",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "bottom": {
-                  "position": "bottom",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                },
-                "left": {
-                  "position": "left",
-                  "attrs": {
-                    "circle": {
-                      "r": 4,
-                      "magnet": true,
-                      "stroke": "#5F95FF",
-                      "strokeWidth": 1,
-                      "fill": "#fff",
-                      "style": {
-                        "visibility": "hidden"
-                      }
-                    }
-                  }
-                }
-              },
-              "items": [
-                {
-                  "group": "top",
-                  "id": "e050c631-371b-4476-9b6f-36941cd8e3cb"
-                },
-                {
-                  "group": "right",
-                  "id": "9e18d11d-aca0-4637-b644-c572417e774e"
-                },
-                {
-                  "group": "bottom",
-                  "id": "5cc29351-4563-42b4-9c85-205269e6610e"
-                },
-                {
-                  "group": "left",
-                  "id": "16652023-753b-4d2e-9d14-3b3869224b90"
-                }
-              ]
-            },
-            "id": "eeab491c-0a79-479e-9fed-27bf865f3b20",
-            "data": {
-              "type": "tm.Actor",
-              "name": "AI facial recognition ",
-              "description": "",
-              "isTrustBoundary": false,
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": true,
-              "providesAuthentication": false,
-              "threats": [
-                {
-                  "id": "1e9f550e-0c08-416d-8227-d92e2f3ffcf6",
-                  "title": "Lack of logging for AI actions",
-                  "status": "Open",
-                  "severity": "Medium",
-                  "type": "Repudiation",
-                  "description": " We assume that the AI's actions are not logged, so there is no way for us to know how the AI identifies users.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 9,
-                  "score": ""
-                },
-                {
-                  "id": "582a4623-bf3a-4acb-9d21-8c2d758f9775",
-                  "title": "Misidentification of user",
-                  "status": "Open",
-                  "severity": "Critical",
-                  "type": "Spoofing",
-                  "description": "We assume that users are notified of what the AI identifies them as. An intruder could be identified as a guest, or as a staff member, for example.",
-                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
-                  "modelType": "STRIDE",
-                  "new": false,
-                  "number": 23,
-                  "score": ""
-                }
-              ],
-              "threatFrequency": {
-                "spoofing": 1,
-                "repudiation": 2
-              }
-            },
-            "children": []
           },
           {
             "position": {
@@ -3624,12 +3523,180 @@
                 "y": 310
               }
             ]
+          },
+          {
+            "position": {
+              "x": -1223.75,
+              "y": 835
+            },
+            "size": {
+              "width": 140,
+              "height": 140
+            },
+            "attrs": {
+              "text": {
+                "text": "AI facial recognition "
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "05c8c537-9802-4ca7-bf3f-ecbd84e5d6a7"
+                },
+                {
+                  "group": "right",
+                  "id": "1b79bf22-b398-47da-ab67-e503ea7c87d4"
+                },
+                {
+                  "group": "bottom",
+                  "id": "1abfa450-73c4-4bd1-9011-cd39d6a6e79b"
+                },
+                {
+                  "group": "left",
+                  "id": "3f61e1ba-f0c4-4812-b505-0d1e29281822"
+                }
+              ]
+            },
+            "id": "73b51d8f-b78b-4e79-82e6-350f369ca140",
+            "zIndex": 32,
+            "data": {
+              "type": "tm.Process",
+              "name": "AI facial recognition",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": [
+                {
+                  "id": "d638fca1-b818-4240-82e2-9e0dfda89660",
+                  "title": "Misidentification of guests and intruders",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Spoofing",
+                  "description": "We assume that staff are notified of what the AI identifies guests and intruders as. A guest could be identified as an intruder, and an intruder could be identified as a guest.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 27,
+                  "score": ""
+                },
+                {
+                  "id": "e1b5d087-e29a-4450-9e89-cda2473237ee",
+                  "title": "AI leaks de-anonymized guests",
+                  "status": "Open",
+                  "severity": "High",
+                  "type": "Information disclosure",
+                  "description": "When the AI reports if the anonymized guests are legit guests or intruders, it could leak the connection between the anonymized and de-anonymized guest.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": ""
+                },
+                {
+                  "id": "6346d7b4-1e0a-4595-ae46-b67c2867a092",
+                  "title": "Lack of logging for AI actions",
+                  "status": "Open",
+                  "severity": "Medium",
+                  "type": "Repudiation",
+                  "description": "We assume that the AI's actions are not logged, so there is no way for us to know how the AI identifies users.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 1,
+                "tampering": 0,
+                "repudiation": 1,
+                "informationDisclosure": 1,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 0
+              }
+            }
           }
         ]
       }
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 24
+    "threatTop": 32
   }
 }
