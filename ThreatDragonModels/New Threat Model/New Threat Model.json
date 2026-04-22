@@ -2490,8 +2490,8 @@
                 "text": "Booking server"
               },
               "body": {
-                "stroke": "#333333",
-                "strokeWidth": 1.5,
+                "stroke": "red",
+                "strokeWidth": 2.5,
                 "strokeDasharray": null
               }
             },
@@ -2588,12 +2588,26 @@
               "outOfScope": false,
               "isTrustBoundary": false,
               "reasonOutOfScope": "",
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
               "handlesCardPayment": false,
               "handlesGoodsOrServices": false,
               "isWebApplication": false,
               "privilegeLevel": "",
-              "threats": []
+              "threats": [
+                {
+                  "id": "eb9e1871-30a0-47b6-9d84-7ef9326aec81",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 24,
+                  "score": ""
+                }
+              ]
             },
             "children": []
           },
@@ -2974,6 +2988,19 @@
                   "new": false,
                   "number": 21,
                   "score": ""
+                },
+                {
+                  "id": "5dbc2659-9769-4ed0-accf-feab93dc202d",
+                  "title": "New STRIDE threat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "Provide a description for this threat",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": true,
+                  "number": 22,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
@@ -3224,17 +3251,30 @@
                   "status": "Open",
                   "severity": "Medium",
                   "type": "Repudiation",
-                  "description": "Provide a description for this threat",
+                  "description": " We assume that the AI's actions are not logged, so there is no way for us to know how the AI identifies users.",
                   "mitigation": "Provide remediation for this threat or a reason if status is N/A",
                   "modelType": "STRIDE",
                   "new": false,
                   "number": 9,
                   "score": ""
+                },
+                {
+                  "id": "582a4623-bf3a-4acb-9d21-8c2d758f9775",
+                  "title": "Misidentification of user",
+                  "status": "Open",
+                  "severity": "Critical",
+                  "type": "Spoofing",
+                  "description": "We assume that users are notified of what the AI identifies them as. An intruder could be identified as a guest, or as a staff member, for example.",
+                  "mitigation": "Provide remediation for this threat or a reason if status is N/A",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "score": ""
                 }
               ],
               "threatFrequency": {
-                "spoofing": 0,
-                "repudiation": 1
+                "spoofing": 1,
+                "repudiation": 2
               }
             },
             "children": []
@@ -3590,6 +3630,6 @@
     ],
     "diagramTop": 3,
     "reviewer": "",
-    "threatTop": 21
+    "threatTop": 24
   }
 }
